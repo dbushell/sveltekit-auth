@@ -1,0 +1,32 @@
+{
+  "image": "ghcr.io/dbushell/docker-ubuntu/base",
+  "features": {
+    "ghcr.io/dbushell/docker-ubuntu/node:latest": {},
+    "ghcr.io/dbushell/docker-ubuntu/deno:latest": {
+      "version": "1.34.3"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  },
+  "runArgs": [
+    "--name",
+    "sveltekit_auth",
+    "--network",
+    "traefik",
+    "--label-file",
+    ".devcontainer/labels",
+    "--env-file",
+    ".env"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "esbenp.prettier-vscode",
+        "denoland.vscode-deno",
+        "svelte.svelte-vscode"
+      ]
+    }
+  }
+}

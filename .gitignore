@@ -1,0 +1,9 @@
+/*
+!.devcontainer
+.devcontainer/labels
+!.github
+!app
+!.env.example
+!.gitignore
+!LICENSE
+!README.md
