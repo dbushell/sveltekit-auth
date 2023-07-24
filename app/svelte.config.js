@@ -16,7 +16,7 @@ const config = {
       mode: 'hash',
       directives: {
         'base-uri': ['none'],
-        'form-action': ['self'],
+        // 'form-action': ['self'],
         'script-src': ['self'],
         'object-src': ['none'],
         'frame-ancestors': ['self']
