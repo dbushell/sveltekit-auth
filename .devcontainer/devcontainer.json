@@ -2,9 +2,7 @@
   "image": "ghcr.io/dbushell/docker-ubuntu/base",
   "features": {
     "ghcr.io/dbushell/docker-ubuntu/node:latest": {},
-    "ghcr.io/dbushell/docker-ubuntu/deno:latest": {
-      "version": "1.34.3"
-    }
+    "ghcr.io/dbushell/docker-ubuntu/deno:latest": {}
   },
   "otherPortsAttributes": {
     "onAutoForward": "ignore"
